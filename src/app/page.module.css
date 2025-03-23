@@ -1,0 +1,80 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; width: 100vw;
+  overflow: hidden; position: fixed;
+  background: linear-gradient(to top, #9A77F4, #FFFFFF);
+
+}
+
+
+.mainTitle {
+  margin-top: 0vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.sedtua { 
+  font-family: 'DM Serif Display';
+  font-size: 64px;
+  font-weight: 400;
+  letter-spacing: 0%;
+  line-height: 64px;
+  text-align: center;
+  color: transparent;
+  background: linear-gradient(to right, #2B5B8C, #77BDDF);
+  -webkit-background-clip: text;
+}
+
+.logo {
+  height: 180px;
+  /*원래 90*/
+}
+
+.catholicClub {
+  font-family: 'Pretendard-Thin';
+  font-size: 16px;
+  line-height: 19px;
+  color: #2B5B8C;
+  
+}
+
+.cross {
+  margin-top: 6.34vh;
+  height: 36vh;
+  object-fit: contain;
+  width:auto;
+  margin-bottom: 6.34vh;
+  
+}
+
+.buttonSet {
+  position: fixed;
+  bottom: 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  width: 96vw;
+  max-width: 800px;
+  height: 7vh;
+  margin-bottom: 12px;
+  border-radius: 12px;
+  background-color: #1E1E1E; /* 버튼 배경색 */
+  color: #F5F5F5; /* 텍스트 색상 */
+  font-size: 16px; /* 기본 폰트 크기 */
+  font-family: "Pretendard-Bold";
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}

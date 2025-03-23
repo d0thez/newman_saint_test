@@ -1,0 +1,115 @@
+@media (max-width: 350px) {
+    .title {
+        font-size: 25px !important;
+    }
+}
+
+@media (max-width: 350px) {
+    .title {
+        font-size: 25px !important;
+    }
+}
+
+.page {
+    display: flex;
+    width: 96vw;
+    max-width: 800px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    font-size: 14px;
+    color: #757575;
+    text-decoration: underline;
+    margin-top: 7.7vh;
+    margin-bottom: 1.5vh;
+    display: flex;
+    width: 100%;
+}
+
+.title {
+    font-family: 'Pretendard-Bold';
+    font-size: 32px;
+    line-height: auto;
+    letter-spacing: 0%;
+    text-align: center;  
+}
+
+.blue {
+    color: #2B5B8C;
+}
+
+.saintImage {
+    position: relative;
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+}
+
+.image {
+    height: 26vh;
+    width: auto;
+}
+.whiteBlur {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 18vh;
+    background: linear-gradient(to top, #F5F5F5, transparent);   
+}
+
+.nameAlert {
+    font-family: 'Pretendard-Medium';
+    font-size: 20px;
+}
+.inputBox {
+    width: 169px;
+    height: 37px;
+    font-family: 'Pretendard-Bold';
+    font-size: 32px;
+    text-align: center;
+    color: #1E1E1E;
+    border: none;
+    border-bottom: 2px solid #1E1E1E;
+    background: transparent;
+    outline: none;
+    padding: 0;
+    margin-top: 1.5vh;
+    margin-bottom: 3vh;
+}
+.inputBox::placeholder {
+    color: #B3B3B3;
+}
+.caution {
+    display: flex;
+    font-size: 14px;
+    color: #757575;
+    line-height: 1.2em;
+}
+
+
+.buttonSet {
+    position: fixed;
+    bottom: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    width: 96vw;
+    max-width: 800px;
+    height: 7vh;
+    margin-bottom: 12px;
+    border-radius: 12px;
+    background-color: #1E1E1E;
+    color: #F5F5F5;
+    font-size: 16px;
+    font-family: "Pretendard-Bold";
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
