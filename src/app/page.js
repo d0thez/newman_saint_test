@@ -39,3 +39,5 @@ export default Home;
 
 
 //https://knunewman.notion.site/
+
+//start -> 'npm run dev'
